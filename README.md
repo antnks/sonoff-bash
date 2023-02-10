@@ -3,7 +3,9 @@ A sample bash script to switch on/off Sonoff smart plug S26R2
 
 # About S26R2
 
-S26R2 is a cheap wifi smart plug under Brand Sonoff.
+S26R2 is a cheap wifi smart plug under Brand Sonoff:
+
+![sonoff-smart-plug-s26-r2.jpg](sonoff-smart-plug-s26-r2.jpg)
 
 # Lack of public API
 
