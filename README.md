@@ -41,7 +41,7 @@ Connection: close
 ```
 JSON payload in the request is either `{"switch":"off"}` or `{"switch":"on"}`.
 
-While the mobile app uses extraparameters in the payload, like `sequence`, `deviceid`, `selfApikey`, I found that they are actually optional.
+While the mobile app uses extra parameters in the payload, like `sequence`, `deviceid`, `selfApikey`, I found that they are actually optional.
 
 # Encryption
 
