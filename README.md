@@ -43,6 +43,8 @@ JSON payload in the request is either `{"switch":"off"}` or `{"switch":"on"}`.
 
 While the mobile app uses extra parameters in the payload, like `sequence`, `deviceid`, `selfApikey`, I found that they are actually optional.
 
+You can even encrypt JSON once and replay it many times, no need to encrypt it every time with a new payload (which is a security risk and makes encryption useless).
+
 # Encryption
 
 Encryption is done by calculating MD5 of device's ASCII device_key and then using that key for AES-CBC-128.
